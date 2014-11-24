@@ -18,11 +18,6 @@ module.exports = function(grunt) {
       main: {
         options: {
           beautify: false,
-          compress: {
-            drop_console: false,
-            drop_debugger: false
-          },
-          preserveComments: false,
           sourceMap: false
         },
         files: {
