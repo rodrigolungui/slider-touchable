@@ -28,6 +28,6 @@
     "LICENSE",
     "README.md",
     "gruntfile.js",
-    "bower.json"
+    "package.json"
   ]
 }
