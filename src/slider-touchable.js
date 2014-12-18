@@ -10,19 +10,19 @@
 	};
 
 	SliderTouchable.prototype = {
-		_params: 		{ },
-		_isTouched: 	false,
-		_element: 		undefined,
+		_params: 				{ },
+		_isTouched: 		false,
+		_element: 			undefined,
 		_wrapperWidth: 	undefined,
-		_totalWidth: 	undefined,
-		_limitRigth: 	undefined,
-		_slider: 		undefined,
-		_startX: 		undefined,
-		_oldCurrent: 	undefined,
-		_limitLeft: 	0,
-		_current: 		0,
+		_totalWidth: 		undefined,
+		_limitRigth: 		undefined,
+		_slider: 				undefined,
+		_startX: 				undefined,
+		_oldCurrent: 		undefined,
+		_limitLeft: 		0,
+		_current: 			0,
 		_sliderOffset: 	0, 
-		_deadline: 		100,
+		_deadline: 			100,
 
 		_transitionProperies: ['transition', 'webkitTransition', 'MozTransition', 'msTransition', 'oTransition'],
 		_transformProperies:  ['transform', 'webkitTransform', 'MozTransform', 'msTransform', 'oTransform'],
@@ -106,7 +106,7 @@
 					endSliderX = touches[0].pageX;
 					offset = Math.abs(endSliderX - self._startX);
 
-					if 		((endSliderX > self._startX) && (offset > self._deadline) && (self._current > self._limitLeft)) self._toRight();
+					if 		  ((endSliderX > self._startX) && (offset > self._deadline) && (self._current > self._limitLeft)) self._toRight();
 					else if ((endSliderX < self._startX) && (offset > self._deadline) && (self._current < self._limitRight)) self._toLeft();
 					else 	self._stay();
 

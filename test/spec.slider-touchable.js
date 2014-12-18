@@ -1,10 +1,14 @@
+var createMock = function() {
+  var mock = document.createElement('div');
+  mock.className = 'slider-wrapper';
+  mock.innerHTML = '<div class="slider"><div class="slide"><img src="http://s.glbimg.com/es/ge/f/original/2014/11/12/fellipe1.png" /></div><div class="slide"><img src="http://s.glbimg.com/es/ge/f/original/2014/11/06/caio.jpg" /></div><div class="slide"><img src="http://s.glbimg.com/es/ge/f/original/2014/11/12/eduardo.jpg" /></div></div>';
+
+  document.querySelector('body').appendChild(mock);
+}
+
 describe('Instance', function() {
   beforeEach(function() {
-    var mock = document.createElement('div');
-    mock.className = 'slider-wrapper';
-    mock.innerHTML = '<div class="slider"><div class="slide"><img src="http://s.glbimg.com/es/ge/f/original/2014/11/12/fellipe1.png" /></div><div class="slide"><img src="http://s.glbimg.com/es/ge/f/original/2014/11/06/caio.jpg" /></div><div class="slide"><img src="http://s.glbimg.com/es/ge/f/original/2014/11/12/eduardo.jpg" /></div></div>';
-
-    document.querySelector('body').appendChild(mock);
+    createMock();
   });
 
   it('should be in window object', function() {
@@ -47,6 +51,3 @@ describe('Instance', function() {
   });
 });
 
-describe('Events', function(){
-  
-});
