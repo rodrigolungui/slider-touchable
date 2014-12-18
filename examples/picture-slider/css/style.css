@@ -32,3 +32,25 @@ h1 {
 .slide img {
 	width: 100%;
 }
+
+
+@media screen and (max-width: 1024px) {
+	.slider-wrapper, .slide, .slide img {
+		width: 900px;
+		height: 620px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.slider-wrapper, .slide, .slide img {
+		width: 708px;
+		height: 620px;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.slider-wrapper, .slide, .slide img {
+		width: 300px;
+		height: 250px;
+	}
+}
