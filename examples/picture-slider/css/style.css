@@ -1,0 +1,34 @@
+* {
+	margin: 0;
+	padding: 0;	
+}
+
+h1 {
+	margin: 30px auto;
+	text-align: center;
+}
+
+.slider-wrapper {
+	width: 680px;
+	height: 420px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.slider {
+	width: 9999%;
+	float: left;
+	transition: all .3s ease-in-out;
+}
+
+
+.slide {
+	float: left;
+	width: 680px;
+	height: 420px;
+	
+}
+
+.slide img {
+	width: 100%;
+}
