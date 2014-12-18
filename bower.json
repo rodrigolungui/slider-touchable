@@ -1,0 +1,29 @@
+{
+  "name": "slider-touchable",
+  "version": "0.0.1",
+  "homepage": "https://github.com/rodrigolungui/slider-touchable",
+  "authors": [
+    "Rodrigo Lungui <lungui.rodrigo@gmail.com>"
+  ],
+  "description": "A tiny plugin to for your html slider be touchable.",
+  "main": "src/slider-touchable.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "slider",
+    "js",
+    "mobile",
+    "touch"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src",
+    "examples"
+  ]
+}
