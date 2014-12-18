@@ -24,6 +24,10 @@
     "test",
     "tests",
     "src",
-    "examples"
+    "examples",
+    "LICENSE",
+    "README.md",
+    "gruntfile.js",
+    "bower.json"
   ]
 }
