@@ -21,7 +21,7 @@ module.exports = function(grunt) {
           sourceMap: false
         },
         files: {
-          'src/slider-touchable.min.js': ['src/slider-touchable.js']
+          'dist/slider-touchable.min.js': ['src/slider-touchable.js']
         }
       }
     }
